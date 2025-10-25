@@ -10,7 +10,7 @@ import numpy as np
 import pickle
 
  #loading the saved model
-model = pickle.load(open('C:/Users/USER/Downloads/MachineLearning/Student_Dropout_Prediction.pkl','rb'))
+model = pickle.load(open('Student_Dropout_Prediction.pkl','rb'))
 
 
 # Creating a function for prediction
@@ -88,7 +88,7 @@ def main():
     )
 
     # 4. Attendance Rate (Percentage)
-    AttendanceRate = st.sidebar.slider(
+    AttendanceRate = st.sidebar.slider(                     
     "4. Attendance Rate (%)",
     min_value=0.0,
     max_value=1.0,
