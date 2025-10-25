@@ -1,8 +1,7 @@
-pandas
-numpy
-matplotlip
-pyplot
-scikit-learn
-pickle
-streamlit
+pandas==2.2.3
+numpy==2.1.3
+matplotlip==3.10.0
+scikit-learn==1.6.1
+pickle==4.0
+streamlit==1.45.1
 
