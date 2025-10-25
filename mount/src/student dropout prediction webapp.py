@@ -10,7 +10,8 @@ import numpy as np
 import pickle
 
  #loading the saved model
-model = pickle.load(open('Student_Dropout_Prediction.pkl','rb'))
+model = pickle.load(open('pickle_model/Student_Dropout_Prediction.pkl','rb'))
+#model = pickle.load(open("C:/Users/USER/Downloads/dropout_folder/pickle_model/Student_Dropout_Prediction.pkl", "rb"))
 
 
 # Creating a function for prediction
