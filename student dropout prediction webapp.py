@@ -11,7 +11,7 @@ import pickle
 
  #loading the saved model
  #Ensure the slash is forward slash
-model = pickle.load(open('Student_Dropout_Prediction','rb'))
+model = pickle.load(open('Student_Dropout_Prediction.pkl','rb'))
 # model = pickle.load(open("C:/Users/USER/Downloads/dropout_folder/Student_Dropout_Prediction.pkl", "rb"))
 
 
