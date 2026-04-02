@@ -56,8 +56,12 @@ def main():
     st.markdown("Enter the student's key academic data to predict their risk of dropping out.")
 
 # --- 3. INPUT WIDGETS (Sidebar for cleaner layout) ---
+    with st.sidebar:
+        st.markdown("Developed by Oluwasegun Oluwatosin (tosindataginius)")
+        st.link_button("Visit my LinkedIn Profile", "https://www.linkedin.com/in/oluwatosin-oluwasegun-1a9266288/")
 
-    st.sidebar.header("Input Student Features")
+    with st.sidebar:
+        st.sidebar.header("Input Student Features")
 
     
     # getting the input from the user
